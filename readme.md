@@ -1,5 +1,5 @@
 # Augmenting Low-Resource Text Classification with Graph-Grounded Pre-training and Prompting
-We provide the implementaion of G2P2 model, which is the source code for the SIGIR 2023 paper
+We provide the implementation of G2P2 model, which is the source code for the SIGIR 2023 paper
 "Augmenting Low-Resource Text Classification with Graph-Grounded Pre-training and Prompting". 
 
 The repository is organised as follows:
