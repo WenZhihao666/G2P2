@@ -3,7 +3,7 @@ We provide the implementaion of G2P2 model, which is the source code for the SIG
 "Augmenting Low-Resource Text Classification with Graph-Grounded Pre-training and Prompting". 
 
 The repository is organised as follows:
-- dataset/: the directory of data sets. 
+- dataset/: the directory of data sets. Currently, it only has the dataset of Cora, if you want the three processed Amazon datasets, you can download and put them under this directory, the link is https://drive.google.com/drive/folders/1IzuYNIYDxr63GteBKeva-8KnAIhvqjMZ?usp=sharing.
 - res/: the directory of saved models.
 - bpe_simple_vocab_16e6.txt.gz: vocabulary for simple tokenization.
 - data.py, data_graph.py: for data loading utilization.
