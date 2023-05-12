@@ -32,3 +32,13 @@ On Cora dataset,
 If on Amazon datasets, it should be:
 
     python main_test_amazon.py
+    
+    
+    
+## Cite
+	@inproceedings{wen2021augmenting,
+		title = {Augmenting Low-Resource Text Classification with Graph-Grounded Pre-training and Prompting},
+		author = {Wen, Zhihao and Fang, Yuan},
+		booktitle = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+		year = {2023}
+	}
