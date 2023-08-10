@@ -48,7 +48,7 @@ def main(args):
         # break
         print('{}th epoch loss:{}'.format(j, loss))
 
-    torch.save(model.state_dict(), './res/{}/node_ttgt_8&12_0.1.pkl'.format(data_name))
+    torch.save(model.state_dict(), './res/cora.pkl'.format(data_name))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
