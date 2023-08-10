@@ -48,7 +48,7 @@ def main(args):
         # break
         print('{}th epoch loss:{}'.format(j, loss))
 
-    torch.save(model.state_dict(), './res/cora.pkl'.format(data_name))
+    torch.save(model.state_dict(), './res/{}/node_ttgt_8&12_0.1.pkl'.format(args.data_name))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -72,13 +72,12 @@ if __name__ == '__main__':
     parser.add_argument('--transformer_width', type=int, default=512)
     parser.add_argument('--vocab_size', type=int, default=49408)  # 49408
     parser.add_argument('--gpu', type=int, default=0)
+    parser.add_argument('--data_name', type=str, default='cora')
 
     args = parser.parse_args()
 
-    data_name = 'cora'
     device = torch.device("cuda:{}".format(args.gpu) if torch.cuda.is_available() else "cpu")
     print('device:', device)
-
 
     num_nodes = 0
     tit_list = []
