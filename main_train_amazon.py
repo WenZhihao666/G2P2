@@ -70,6 +70,8 @@ if __name__ == '__main__':
     parser.add_argument('--transformer_layers', type=int, default=12)
     parser.add_argument('--transformer_width', type=int, default=512)
     parser.add_argument('--vocab_size', type=int, default=49408)  # 49408
+    # parser.add_argument('--data_name', type=str, default="Arts_Crafts_and_Sewing")
+    # parser.add_argument('--data_name', type=str, default="Industrial_and_Scientific")
     parser.add_argument('--data_name', type=str, default="Musical_Instruments")
     parser.add_argument('--gpu', type=int, default=0)
 
