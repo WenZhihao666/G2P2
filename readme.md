@@ -24,7 +24,7 @@ If on Amazon datasets, it should be:
 
     python main_train_amazon.py
 
-# For testing:
+# For prompt tuning and testing:
 On Cora dataset,
 
     python main_test.py 
@@ -32,7 +32,17 @@ On Cora dataset,
 If on Amazon datasets, it should be:
 
     python main_test_amazon.py
-    
+
+# For zero-shot testing:
+First, change directory to /zero-shot
+
+On Cora dataset,
+
+    python zero-shot-cora.py 
+
+If on Amazon datasets, it should be:
+
+    python zero-shot-amazon.py
     
     
 ## Cite
