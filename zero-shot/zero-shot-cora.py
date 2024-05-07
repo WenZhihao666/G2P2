@@ -122,8 +122,6 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    start = time.perf_counter()
-
     data_name = 'cora'
     device = torch.device("cuda:{}".format(args.gpu) if torch.cuda.is_available() else "cpu")
     print('device:', device)
@@ -175,8 +173,11 @@ if __name__ == '__main__':
         if i != 'nan':
             labels.append(i)
 
+    start = time.perf_counter()
+
     the_list = ['', 'a ', 'an ', 'of ', 'paper of ', 'research of ', 'a paper of ', 'a research of ', 'a model of ',
                 'research paper of ', 'a research paper of ']
+
 
     the_template = the_list[0]
     seed = 1
