@@ -4,7 +4,7 @@ We provide the implementation of G2P2 model, which is the source code for the SI
 
 The repository is organised as follows:
 - dataset/: the directory of data sets. Currently, it only has the dataset of Cora, if you want the *three processed Amazon datasets*, you can download and put them under this directory, the link is https://drive.google.com/drive/folders/1IzuYNIYDxr63GteBKeva-8KnAIhvqjMZ?usp=sharing. Besides, this link also contains the **4 pre-trained models**, under the directory of "pre-trained model".
-- res/: the directory of saved models.
+- res/: the directory of saved models. The web site of the original Cora dataset: https://people.cs.umass.edu/~mccallum/data/cora-classify.tar.gz , the web site of the three raw Amazon datasets: http://deepyeti.ucsd.edu/jianmo/amazon/index.html. 
 - bpe_simple_vocab_16e6.txt.gz: vocabulary for simple tokenization.
 - data.py, data_graph.py: for data loading utilization.
 - main_test.py, main_test_amazon.py: testing entrance for cora, testing entrance for Amazon datasets.
