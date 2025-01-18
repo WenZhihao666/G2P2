@@ -13,7 +13,7 @@ from sklearn.metrics import accuracy_score, f1_score
 from multitask import multitask_data_generator
 from model_g_coop import CoOp
 import json
-from data_graph import DataHelper
+from datahelper import DataHelper
 from torch.utils.data import DataLoader
 
 
